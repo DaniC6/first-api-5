@@ -16,6 +16,7 @@ public class CarDTO {
     @NotBlank(message = "Mandatory!")
     private String modelName;
     private double price;
+    
 public CarDTO(String id, String modelName, double price) {
         this.id = id;
         this.modelName = modelName;
